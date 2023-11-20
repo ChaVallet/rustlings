@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"command": "build",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": "build",
+			"label": "rust: cargo build"
+		},
+		{
+			"type": "shell",
+			"command": "rustlings watch",
+			"problemMatcher": [],
+			"label": "rustlings watch"
+		},
+		{
+			"type": "shell",
+			"command": "rustlings lsp",
+			"problemMatcher": [],
+			"label": "rustlings lsp"
+		},
+	]
+}
